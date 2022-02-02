@@ -8,6 +8,10 @@ class SimpleRegression():
         '''Initialize attributes'''
         self.intercept_ = False
         self.coef_ = False
+        '''
+            Attributes -> global vars,
+            Naming con -> all lower case ending with undersocre(_)
+        '''
     
     def get_b(self, X, Y):
         '''Calculate the coefficient / slope'''
